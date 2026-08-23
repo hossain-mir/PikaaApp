@@ -109,8 +109,8 @@ fullscreen = 0
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-android.api = 33
-android.build_tools_version = 33.0.0
+android.api = 35
+android.build_tools_version = 35.0.0
 
 # (int) Minimum API your APK / AAB will support.
 #android.minapi = 24
@@ -136,7 +136,7 @@ android.build_tools_version = 33.0.0
 # (bool) If True, then skip trying to update the Android SDK
 # This can be useful to avoid excess Internet downloads or save time
 # when an update is due and you just want to test/build your package
-android.skip_update = True
+android.skip_update = False
 
 # (bool) If True, then automatically accept SDK license
 # agreements. This is intended for automation only. If set to False,
@@ -299,7 +299,7 @@ android.archs = arm64-v8a
 # android.numeric_version = 1
 
 # (bool) enables Android auto backup feature (Android API >=23)
-android.allow_backup = True
+android.skip_update = False
 
 # (str) XML file for custom backup rules (see official auto backup documentation)
 # android.backup_rules =
