@@ -1,0 +1,6 @@
+.buildozer/
+*.zip
+*.log
+build-error.txt
+hostpython-error.log
+parking_lot.c.backup
